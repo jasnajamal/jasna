@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jasna | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 2rem 0;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #999;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .project {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jasna</h1>
+    <p>Web Developer | Designer | Creator</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I'm Jasna, a passionate web developer who loves creating clean and beautiful websites.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Project One</h3>
+        <p>A simple description of your first project.</p>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>Another project you’re proud of!</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:youremail@example.com">jasnasana2163@example.com</a></p>
+  </section>
+</body>
+</html>

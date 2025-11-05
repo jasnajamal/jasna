@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jasna | Portfolio</title>
+  <style>
+    /* 🌸 General Styles */
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    /* 🌈 Navbar */
+    nav {
+      background-color: #222;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ff7eb3;
+    }
+
+    /* 💫 Header */
+    header {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    /* 📄 Sections */
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #555;
+      margin-bottom: 1.5rem;
+      position: relative;
+    }
+
+    h2::after {
+      content: '';
+      width: 50px;
+      height: 3px;
+      background: #ff7eb3;
+      display: block;
+      margin: 0.5rem auto 0;
+      border-radius: 5px;
+    }
+
+    /* 💻 Projects */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .project {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .project h3 {
+      color: #ff7eb3;
+      margin-bottom: 0.5rem;
+    }
+
+    /* ✨ Contact */
+    .contact p {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    .contact a {
+      color: #ff7eb3;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* 🌙 Footer */
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1.5rem 0;
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      color: #ff7eb3;
+    }
+  </style>
+</head>
+<body>
+  <!-- 🌈 Navigation Bar -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- 💫 Header -->
+  <header>
+    <h1>Jasna</h1>
+    <p>Web Developer | Designer | Creator</p>
+  </header>
+
+  <!-- 📘 About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Hi! I'm <strong>Jasna</strong>, a passionate web developer who loves turning ideas into beautiful and functional digital experiences.
+      I enjoy working with HTML, CSS, and JavaScript to craft responsive, user-friendly websites.
+    </p>
+  </section>
+
+  <!-- 💻 Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>🌟 Portfolio Website</h3>
+        <p>A modern and responsive personal portfolio showcasing my web development journey.</p>
+      </div>
+      <div class="project">
+        <h3>🛍️ Online Store</h3>
+        <p>A simple e-commerce layout built using HTML, CSS, and JavaScript for smooth interactions.</p>
+      </div>
+      <div class="project">
+        <h3>📱 Mobile App UI</h3>
+        <p>Created a clean and minimal mobile UI design using Figma and translated it to web code.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 💌 Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Let's connect! Email me at <a href="mailto:jasnasana2163@example.com">jasnasana2163@example.com</a></p>
+  </section>
+
+  <!-- 🌙 Footer -->
+  <footer>
+    <p>© <span>2025</span> Jasna | Designed with 💖 by Jasna</p>
+  </footer>
+</body>
+</html>
